@@ -33,11 +33,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    background-color: #E6EDE6;
+    background-color: #E6E7ED;
 }
 
 .logo img {
-    border-radius: 50%;
     padding: 10px;
 }
 
@@ -50,7 +49,7 @@ nav ul {
 nav a {
     font-weight: 900;
     font-size: 24px;
-    color: #6E8B71;
+    color: #766E8B;
     transition: color 0.3s;
 }
 
@@ -63,20 +62,19 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 60px;
+    padding: 50px 60px 30px 30px;
     background-color: #f5f3ed;
     position: relative;
 }
 
 .hero img {
-    max-width: 886px;
-    width: 100%;
+    width: 422px;
 }
 
 .hero-text {
     position: absolute;
-    right: 25%;
-    top: 50%;
+    right: 15%;
+    top: 60%;
     transform: translateY(-50%);
     font-size: 30px;
     font-weight: 900;
@@ -109,7 +107,7 @@ nav a:hover {
 
 .about-details {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -165,7 +163,7 @@ nav a:hover {
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -214,7 +212,7 @@ nav a:hover {
 
 .contact-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
@@ -243,6 +241,17 @@ nav a:hover {
     position: relative;
 }
 
+.contact-item li button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #745270;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 4px;
+    border: 0;
+    position: relative;
+}
+
 .contact-item li::before {
     content: "•";
     position: absolute;
@@ -261,8 +270,8 @@ nav a:hover {
 
 /* Footer */
 footer {
-    background-color: #3d5a4c;
-    color: rgba(255, 255, 255, 0.6);
+    background-color: #9D9EC0;
+    color: #fff;
     text-align: left;
     padding: 30px 60px;
     font-size: 14px;
